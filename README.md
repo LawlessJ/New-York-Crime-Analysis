@@ -154,15 +154,24 @@ pd_desc                |619                 |Missing                 |     unkno
 
 -----------
 ## Exploratory Data Analysis
-This step was conducted repeatedly throughout the course of the project, with the most significant EDA conducted at the very end of the project. The first steps of analysis were done using conventional methods, exploring the dataset as imported, searching for strong learners to pass into an estimator for the sake of classification/regression modelling. 
+This step was conducted repeatedly throughout the course of the project, with the most significant EDA conducted at the very end of the project. The first steps of analysis were done using conventional methods, exploring the dataset as imported, searching for strong learners to pass into an estimator for the sake of classification/regression modelling. Location and population seemed to play some of the biggest roles in the amount and types of crimes committed. Recreating this study with the benefit of more accurate income data would very likely yield better results as well. Here are a few of the visualizations that illustrate our findings:
 
-Following this (and as a result of poor accuracy scores in modelling), an attempt at Unsupervised modeling was begun, in order to better understand the data we are working with. This was done in multiple steps:
+**Crimes by Precinct:**
+<img src='images/Precinct_crime.png' width = "450" height = "450">
 
-- First, an attempt at a KMeans cluster was undertaken. However, given the immense size of the data, this proved to require prohibitively large time requirements, given the dealine of our project deliverables. 
+**Suspect Age Group/Sex breakdown:**
+<img src='images/age_group_by_sex.png' width = "450" height = "400">
+
+**Crime Amounts by Crime Type:**
+<img src='images/crime_by_amount_type.png' width = "550" height = "400">
+
+Following this (and as a result of poor accuracy scores in modelling), an attempt at unsupervised modeling was begun, in order to better understand the data we are working with. This was done in multiple steps:
+
+- First, an attempt at a KMeans cluster was undertaken. However, given the immense size of the data, this proved to require prohibitively large time requirements, given the deadline of our project deliverables. 
 
 - In response to this, a sample of about 35% of the data was taken in order to complete this study with the time remaining. Using the elbow method, several values of k in a kmeans were conducted, as well as a DBScan. However, these proved to return very poor silhouette scores. This was suspected to be because the data was just so complex that the model was unable to properly measure correlations.
 
-- Therefore, the model was simplified using a Principle Component Analysis to 10 features, which were then passed once again into a KMeans Analysis, after again using the elbow method. This resulted in greatly imporved results.
+- Therefore, the model was simplified using a Principle Component Analysis to 10 features, which were then passed once again into a KMeans Analysis, after again using the elbow method. This resulted in greatly improved results.
 
 
 -----------
@@ -192,9 +201,9 @@ Top Performing Model:
 
 1) Supervised Model Conclusions
 
-- We can use the coefficients created from our linear regression model to make some tentative observations regarding current law enforcement practices.  For example, as this data was taken from 2018, it’s no surprise that marijuana possession complaints were used by the model to assess how many arrests were made.  The publicly available arrest data can confirm that this crime constituted a high number of arrests.  In particular, it may be said that these types of complaints may be made less frequently without already being attached to an arrest.
+- We can use the coefficients created from our linear regression model to make some tentative observations regarding current law enforcement practices.  For example, as this data was taken from 2018, it’s no surprise that marijuana possession complaints were used by the model to assess how many arrests were made. The publicly available arrest data can confirm that this crime constituted a high number of arrests. In particular, it may be said that these types of complaints may be made less frequently without already being attached to an arrest.
 
-- We also have some data that seems to have an inverse effect on the expected numbers of arrests, such as complaints made for motorcycle theft.  This is also expected, as there are frequently reports made for certain crimes without arrests to go with them.
+- We also have some data that seems to have an inverse effect on the expected numbers of arrests, such as complaints made for motorcycle theft. This is also expected, as there are frequently reports made for certain crimes without arrests to go with them.
 Population demographic data is also included within, which may show some indication of how the demographics of the people that live in an area can affect the rates of law enforcement, independent of the frequency of the occurrence of crime.
 
 
@@ -204,7 +213,8 @@ Population demographic data is also included within, which may show some indicat
 
 - Stronger than this is the Latitude and Longitude coordinates, which clearly show the separation of each cluster. Given that many of these clusters are touching, I do think it likely that some other features separate these clusters clearly along location lines. 
 
-- Despite the relatively poor performance of the classification model in the Neighborhood Analysis Notebook, this result is a clear indication that location is an imortant feature to identify differences in the impact of crime in New York - specifically, according to the map created above.
+- Despite the relatively poor performance of the classification model in the Neighborhood Analysis Notebook, this result is a clear indication that location is an imortant feature to identify differences in the impact of crime in New York - specifically, according to the map created below, which reflects the result of mapping these clusters by lattitude/longitude:
+<img src='images/cluster_visualization_latlong.png' width = "550" height = "500">
 
 *Important Caveat to these findings - due to processing and time limitations, this study had to be done on a small sampling of the entire data. This analysis would ideally be done on the entirety of the dataset, to hopefully find even stronger correlations.*
 

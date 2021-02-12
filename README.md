@@ -3,33 +3,33 @@
 
 -----------
 ### Table of Contents
-[Executive Summary](https://git.generalassemb.ly/johnlawless/Project_5/#executive-summary)
+[Executive Summary](https://github.com/LawlessJ/New-York-Crime-Analysis/#executive-summary)
 
-[Folder Structure](https://git.generalassemb.ly/johnlawless/Project_5/#folder-structure)
+[Folder Structure](https://github.com/LawlessJ/New-York-Crime-Analysis/#folder-structure)
 
-[Problem Statement](https://git.generalassemb.ly/johnlawless/Project_5/#problem-statement)
+[Problem Statement](https://github.com/LawlessJ/New-York-Crime-Analysis/#problem-statement)
 
-[Data Acquisition](https://git.generalassemb.ly/johnlawless/Project_5/#data-acquisition)
+[Data Acquisition](https://github.com/LawlessJ/New-York-Crime-Analysis/#data-acquisition)
 
-[Data Description](https://git.generalassemb.ly/johnlawless/Project_5/#data-description)
+[Data Description](https://github.com/LawlessJ/New-York-Crime-Analysis/#data-description)
 
-[Software Requirements](https://git.generalassemb.ly/johnlawless/Project_5/#software-requirements)
+[Software Requirements](https://github.com/LawlessJ/New-York-Crime-Analysis/#software-requirements)
 
-[Data Cleaning Steps](https://git.generalassemb.ly/johnlawless/Project_5/#data-cleaning-steps)
+[Data Cleaning Steps](https://github.com/LawlessJ/New-York-Crime-Analysis/#data-cleaning-steps)
 
-[Exploratory Data Analysis](https://git.generalassemb.ly/johnlawless/Project_5/#exploratory-data-analysis)
+[Exploratory Data Analysis](https://github.com/LawlessJ/New-York-Crime-Analysis/#exploratory-data-analysis)
 
-[Data Processing](https://git.generalassemb.ly/johnlawless/Project_5/#data-processing)
+[Data Processing](https://github.com/LawlessJ/New-York-Crime-Analysis/#data-processing)
 
-[Engineer Features](https://git.generalassemb.ly/johnlawless/Project_5/#engineer-features)
+[Engineer Features](https://github.com/LawlessJ/New-York-Crime-Analysis/#engineer-features)
 
-[Modeling](https://git.generalassemb.ly/johnlawless/Project_5/#modeling)
+[Modeling](https://github.com/LawlessJ/New-York-Crime-Analysis/#modeling)
 
-[Evaluation](https://git.generalassemb.ly/johnlawless/Project_5/#evaluation)
+[Evaluation](https://github.com/LawlessJ/New-York-Crime-Analysis/#evaluation)
 
-[Conclusion](https://git.generalassemb.ly/johnlawless/Project_5/#conclusion)
+[Conclusion](https://github.com/LawlessJ/New-York-Crime-Analysis/#conclusion)
 
-[Next Steps](https://git.generalassemb.ly/johnlawless/Project_5/#next-steps)
+[Next Steps](https://github.com/LawlessJ/New-York-Crime-Analysis/#next-steps)
 
 
 -----------

@@ -112,7 +112,7 @@ Columns that were added to the originally colelcted data:
 
 These columns came from Open Data, NYC Planning, and Data World websites linked above.
 
-There are 34 features and 91,7456 values within each feature of the used data. Each features, and the description of these features can be found in this [file](./data/data_description.txt). 
+There are 34 features and 917,456 values within each feature of the used data. Each features, and the description of these features can be found in this [file](./data/data_description.txt). 
 
 
 -----------
